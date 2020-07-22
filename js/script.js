@@ -30,7 +30,7 @@ let altura = prompt("Ingresa tu altura: ", "En centimetros");
 
     let x = prompt('Ingresa un numero para mostrar la tabla de multiplicar');
 
-    function escribirTablaMultiplicar(x){
+    function tablaMultiplicar(x){
 
         document.write("<h2>Tabla de multiplicar del "+ x +"</h2>");
     
@@ -38,11 +38,11 @@ let altura = prompt("Ingresa tu altura: ", "En centimetros");
     
         for(i = 1;i<=10;i++){
             document.write("<li>");
-            document.write(x + "x " + i + "= " + x * i);
+            document.write(x + " x " + i + "= " + x * i);
             document.write("</li>");
         }
     
         document.write("</ul>");
     }
     
-    escribirTablaMultiplicar(x);
+    tablaMultiplicar(x);
