@@ -25,3 +25,24 @@ let altura = prompt("Ingresa tu altura: ", "En centimetros");
     document.write("Tu indice de masa corporal es: <p>" + resultado + "</p> Tienes " + estado);
 }
     masaCorporal(peso. altura);
+
+
+
+    let x = prompt('Ingresa un numero para mostrar la tabla de multiplicar');
+
+    function escribirTablaMultiplicar(x){
+
+        document.write("<h2>Tabla de multiplicar del "+ x +"</h2>");
+    
+        document.write("<ul>");
+    
+        for(i = 1;i<=10;i++){
+            document.write("<li>");
+            document.write(x + "x " + i + "= " + x * i);
+            document.write("</li>");
+        }
+    
+        document.write("</ul>");
+    }
+    
+    escribirTablaMultiplicar(x);
